@@ -1,74 +1,88 @@
-
-# Haikus for Codespaces
-
-This is a quick node project template for demoing Codespaces. It is based on the [Azure node sample](https://github.com/Azure-Samples/nodejs-docs-hello-world). It's great!!!
-
-Point your browser to [Quickstart for GitHub Codespaces](https://docs.github.com/en/codespaces/getting-started/quickstart) for a tour of using Codespaces with this repo.
-# takizawa-setsu
 <!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>滝澤設備 | 設備工事・水まわり修理</title>
+
+<title>滝澤設備 | 名古屋市緑区 設備工事</title>
 
 <style>
 body {
-  margin: 0;
-  font-family: "Noto Sans JP", sans-serif;
-  color: #333;
-  line-height: 1.8;
+  margin:0;
+  font-family:"Noto Sans JP", sans-serif;
+  color:#333;
+  line-height:1.8;
 }
 
 header {
-  background: #005bac;
-  color: white;
-  padding: 40px 20px;
-  text-align: center;
+  background:#005bac;
+  color:white;
+  text-align:center;
+  padding:60px 20px;
 }
 
 header h1 {
-  margin: 0;
-  font-size: 32px;
+  font-size:38px;
+  margin:0;
 }
 
 section {
-  padding: 30px 20px;
-  max-width: 800px;
-  margin: auto;
+  max-width:900px;
+  margin:auto;
+  padding:40px 20px;
 }
 
 h2 {
-  color: #005bac;
-  border-bottom: 2px solid #005bac;
-  padding-bottom: 8px;
+  color:#005bac;
+  border-left:6px solid #005bac;
+  padding-left:12px;
 }
 
-.card {
-  background: #f5f8fb;
-  padding: 20px;
-  border-radius: 10px;
-  margin: 15px 0;
+.box {
+  background:#f4f8fc;
+  padding:25px;
+  margin:20px 0;
+  border-radius:12px;
+}
+
+.photo {
+  background:#ddd;
+  height:180px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#666;
+  border-radius:10px;
 }
 
 .contact {
-  background: #005bac;
-  color: white;
-  text-align: center;
-  padding: 30px 20px;
+  background:#005bac;
+  color:white;
+  text-align:center;
+  padding:40px 20px;
 }
 
 .tel {
-  font-size: 28px;
-  font-weight: bold;
+  font-size:30px;
+  font-weight:bold;
+}
+
+button {
+  background:white;
+  color:#005bac;
+  border:none;
+  padding:15px 30px;
+  border-radius:30px;
+  font-size:18px;
 }
 
 footer {
-  text-align: center;
-  padding: 15px;
-  background: #eee;
+  text-align:center;
+  background:#eee;
+  padding:20px;
 }
 </style>
+
 </head>
 
 <body>
@@ -78,59 +92,130 @@ footer {
 <p>地域の暮らしを支える、確かな設備工事</p>
 </header>
 
-<section>
-<h2>ごあいさつ</h2>
-<p>
-愛知県名古屋市緑区を中心に、給排水設備工事や水まわりの修理など、
-安心・丁寧な施工を心がけています。
-</p>
-</section>
 
 <section>
+
+<h2>ごあいさつ</h2>
+
+<p>
+愛知県名古屋市緑区の滝澤設備です。
+給排水設備工事、水まわりの修理など、
+建物に欠かせない設備工事を行っています。
+</p>
+
+<p>
+お客様の安心と快適な暮らしを第一に考え、
+丁寧で確実な施工を心がけています。
+</p>
+
+</section>
+
+
+
+<section>
+
 <h2>事業内容</h2>
 
-<div class="card">
+
+<div class="box">
 <h3>給排水設備工事</h3>
 <p>
-住宅や建物の水道設備工事を丁寧に施工します。
+住宅や建物の水道設備、配管工事を行います。
+新設工事から改修工事まで対応します。
 </p>
 </div>
 
-<div class="card">
+
+<div class="box">
 <h3>水まわり修理</h3>
 <p>
-水漏れ・詰まりなど、水まわりのトラブルに対応します。
+水漏れ、配管トラブル、設備の不具合など、
+水まわりのお困りごとに対応します。
 </p>
 </div>
 
-<div class="card">
+
+<div class="box">
 <h3>設備メンテナンス</h3>
 <p>
-設備を長く安心して使えるようサポートします。
+設備を長く安心して使用できるよう、
+点検や修理を行います。
 </p>
 </div>
 
 </section>
 
+
+
 <section>
+
+<h2>施工事例</h2>
+
+
+<div class="box">
+<div class="photo">
+施工写真をここに掲載
+</div>
+<p>
+配管工事・設備工事などの施工例を紹介します。
+</p>
+</div>
+
+
+<div class="box">
+<div class="photo">
+施工写真をここに掲載
+</div>
+<p>
+丁寧な施工で安心できる設備環境を提供します。
+</p>
+</div>
+
+
+</section>
+
+
+
+<section>
+
 <h2>会社情報</h2>
 
 <p>
 <strong>会社名：</strong>滝澤設備<br>
-<strong>住所：</strong>愛知県名古屋市緑区左京山2909-1<br>
+<strong>所在地：</strong>愛知県名古屋市緑区左京山2909-1<br>
 <strong>電話：</strong>090-3255-6202
 </p>
 
 </section>
 
+
+
 <div class="contact">
-<p>設備工事のご相談はこちら</p>
-<p class="tel">090-3255-6202</p>
+
+<h2 style="color:white;border:none;">
+お問い合わせ
+</h2>
+
+<p>
+設備工事・水まわりのご相談はお気軽にお問い合わせください。
+</p>
+
+<p class="tel">
+090-3255-6202
+</p>
+
+<a href="tel:09032556202">
+<button>電話をかける</button>
+</a>
+
 </div>
 
+
+
 <footer>
-<p>© 滝澤設備 All Rights Reserved.</p>
+© 滝澤設備 All Rights Reserved.
 </footer>
+
 
 </body>
 </html>
